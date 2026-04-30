@@ -4166,7 +4166,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
   .crm-feature__item .ft_icon {
     position: absolute;
     top: 50%;
-    right: 42px;
+    left: 42px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
