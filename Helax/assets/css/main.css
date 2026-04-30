@@ -6530,7 +6530,7 @@ blockquote {
   .footer__cta-social {
     justify-content: start; } }
 .footer__cta-social li:not(:first-child) {
-  margin-left: 12px; }
+  margin-left: 24px; }
 .footer__cta-social li a {
   width: 48px;
   height: 48px;
