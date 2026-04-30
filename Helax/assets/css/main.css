@@ -38,10 +38,69 @@
     
 
 -----------------------------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Hairline.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Thin.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Extralight.otf') format('opentype');
+  font-weight: 250;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Extrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Polin';
+  src: url('../fonts/Polin-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
 :root {
-  --font-body: 'Lexend Deca', sans-serif;
-  --font-heading: 'Lexend Deca', sans-serif;
+  --font-body: 'Polin', sans-serif;
+  --font-heading: 'Polin', sans-serif;
   --gradient-color-from: #99E9A5;
   --gradient-color-to: #3847EF;
   --gradient-color-from-2: #331C9C;
@@ -6529,10 +6588,8 @@ blockquote {
 @media (max-width: 991px) {
   .footer__cta-social {
     justify-content: start; } }
-.footer__cta-social {
-  gap: 20px; }
 .footer__cta-social li:not(:first-child) {
-  margin-left: 0; }
+  margin-left: 24px; }
 .footer__cta-social li a {
   width: 48px;
   height: 48px;
