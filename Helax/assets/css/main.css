@@ -2530,6 +2530,12 @@ h6 {
       padding: 20px 0px; } }
   .header-style-two .header__bar span {
     background-color: #fff; }
+  .header-style-two .main-menu ul li.menu-item-has-children > a::after {
+    display: none; }
+  .header-style-two .main-menu > ul {
+    gap: 48px; }
+  .header-style-two .main-menu > ul > li:not(:last-child) {
+    margin-right: 0; }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .header-style-three .header__bar {
